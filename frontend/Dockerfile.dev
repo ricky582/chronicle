@@ -1,0 +1,26 @@
+# syntax=docker/dockerfile:1
+
+#docker run -it --rm --entrypoint sh node:25-alpine
+# docker compose up --build
+
+# Base image
+FROM node:25-alpine
+
+WORKDIR /home/node/app
+
+ENV NEXT_TELEMETRY_DISABLED 1
+
+COPY package.json package-lock.json* ./
+RUN npm install
+
+# Run the application as a non-root user.
+# USER node
+
+# Copy the rest of the source files into the image.
+COPY . .
+
+# Expose the port that the application listens on.
+EXPOSE 3000
+
+# Run the application.
+CMD ["npm", "run", "dev"]
