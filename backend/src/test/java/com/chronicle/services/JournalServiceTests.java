@@ -1,9 +1,9 @@
-package com.example.demo.services;
+package com.chronicle.services;
 
-import com.example.demo.TestConfig;
-import com.example.demo.records.Config;
-import com.example.demo.records.JournalEntry;
-import com.example.demo.repositories.JournalRepository;
+import com.chronicle.TestConfig;
+import com.chronicle.records.Config;
+import com.chronicle.records.JournalEntry;
+import com.chronicle.repositories.JournalRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;

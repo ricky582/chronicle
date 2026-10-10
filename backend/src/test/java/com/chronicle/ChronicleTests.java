@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.chronicle;
 
-import com.example.demo.records.Config;
+import com.chronicle.records.Config;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;

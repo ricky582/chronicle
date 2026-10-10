@@ -1,8 +1,8 @@
-package com.example.demo.repositories;
+package com.chronicle.repositories;
 
-import com.example.demo.TestConfig;
-import com.example.demo.records.Config;
-import com.example.demo.records.JournalEntry;
+import com.chronicle.TestConfig;
+import com.chronicle.records.Config;
+import com.chronicle.records.JournalEntry;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

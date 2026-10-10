@@ -1,6 +1,6 @@
-package com.example.demo.repositories;
+package com.chronicle.repositories;
 
-import com.example.demo.records.JournalEntry;
+import com.chronicle.records.JournalEntry;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.server.ResponseStatusException;

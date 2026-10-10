@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.chronicle;
 
-import com.example.demo.records.Config;
+import com.chronicle.records.Config;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
